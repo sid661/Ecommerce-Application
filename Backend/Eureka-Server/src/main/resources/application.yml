@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Myserver
+server:
+  port: ${EUREKA_SERVER_PORT:8761}

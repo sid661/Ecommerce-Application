@@ -1,0 +1,8 @@
+server:
+  port: 5002
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/adminRoyal_database
+  application:
+    name: admin-service

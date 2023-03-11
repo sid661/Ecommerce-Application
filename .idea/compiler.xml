@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-authentication" />
+        <module name="API-GATEWAY" />
+        <module name="productservice" />
+        <module name="Eureka-Server" />
+        <module name="user-service" />
+        <module name="adminauthentication-service" />
+        <module name="admin-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-service" target="1.7" />
+      <module name="adminauthentication-service" target="1.7" />
+      <module name="API-GATEWAY" target="1.7" />
+      <module name="EcommerceApplication" target="1.7" />
+      <module name="Eureka-Server" target="1.7" />
+      <module name="productservice" target="11" />
+      <module name="user-authentication" target="1.7" />
+      <module name="user-service" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

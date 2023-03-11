@@ -1,0 +1,53 @@
+<html>
+
+<body>
+    <p>addnewproduct works!</p>
+    <p>addnewproduct works!</p>
+    <div class="container mt-5">
+        <div class="card p-2" style="background-color: black; color: white;">
+            <div class="row">
+                <div class="col-6">
+                    <form #productForm="ngForm" (ngSubmit)="addProduct(productForm)">
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Product Id</mat-label>
+                            <input matInput placeholder="Product Id" [(ngModel)]="product.productId" name="productId">
+
+                        </mat-form-field>
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Product Name</mat-label>
+                            <input matInput placeholder="Product Name" [(ngModel)]="product.productName" name="productName">
+
+                        </mat-form-field>
+
+                        <mat-form-field appearance="outline" class="w-100">
+                            <mat-label>Product Cost</mat-label>
+                            <input matInput placeholder="Product Cost" [(ngModel)]="product.cost" name="cost">
+
+                        </mat-form-field>
+
+                        <div align="end">
+                            <button mat-raised-button style="background-color: green; margin-right: 10px;">Clear</button>
+                            <button type="submit" mat-raised-button style="background-color: rgb(5, 140, 230);">Add Product</button>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-6">
+
+                    <div>
+                        <input type="file" multiple value="select" #selectfile
+                        (change)="onFileSelected($event)">
+                    </div>
+                   <div>
+                    
+                   </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

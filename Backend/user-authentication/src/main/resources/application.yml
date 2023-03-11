@@ -1,0 +1,23 @@
+server:
+  port: 8050
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Login_Data
+    username: root
+    password: sid@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+  application:
+    name: userauth-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_SERVER_IP:localhost}:${EURECA_SERVER_PORT:8761}/eureka
+      fetchRegistry: true
+      registerWithEureka: true
+
+
+
+

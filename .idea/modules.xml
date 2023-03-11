@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Backend/API-GATEWAY/API-GATEWAY.iml" filepath="$PROJECT_DIR$/Backend/API-GATEWAY/API-GATEWAY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ecommerce-Application.iml" filepath="$PROJECT_DIR$/.idea/Ecommerce-Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/EcommerceApplication.iml" filepath="$PROJECT_DIR$/Backend/EcommerceApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/Backend/Eureka-Server/Eureka-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/admin-service/admin-service.iml" filepath="$PROJECT_DIR$/Backend/admin-service/admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/adminauthentication-service/adminauthentication-service.iml" filepath="$PROJECT_DIR$/Backend/adminauthentication-service/adminauthentication-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/productservice/productservice.iml" filepath="$PROJECT_DIR$/Backend/productservice/productservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/user-authentication/user-authentication.iml" filepath="$PROJECT_DIR$/Backend/user-authentication/user-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/user-service/user-service.iml" filepath="$PROJECT_DIR$/Backend/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

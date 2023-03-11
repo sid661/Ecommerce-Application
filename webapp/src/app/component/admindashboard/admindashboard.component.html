@@ -1,0 +1,37 @@
+
+<h1>hello</h1>
+<h1>hello</h1>
+<div class="continer">
+
+    <div class ="buttons">
+        <button mat-raised-button routerLink="/home" style="background-color: transparent;"><mat-icon style="color: yellow;">home</mat-icon></button>
+        <button mat-raised-button routerLink="/addnewproduct" style="background-color: transparent; color: black;"><mat-icon style="color: green;">add_to_drive</mat-icon></button>
+        <button mat-raised-button routerLink="admin" style="background-color: transparent;"><mat-icon style="color: red;">find_replace</mat-icon></button >
+        <button mat-raised-button routerLink="home" style="background-color: transparent;"><mat-icon style="color: yellow;">delete_outline</mat-icon></button>
+        <button mat-raised-button routerLink="admin" style="background-color: transparent;"><mat-icon style="color: red;">search</mat-icon></button >
+        <button mat-raised-button routerLink="home" style="background-color: transparent;"><mat-icon style="color: yellow;">crop_free</mat-icon></button>
+        <p style="color: white; text-align: right; margin-top: -25px; font-size: 18px;">Admin DashBoarad</p>
+     </div>
+
+
+</div>
+<table border="2px">
+   <th> productId</th>
+   <th>productName</th>
+ <th>cost</th>
+ <th>Delete</th>
+ <th>Update</th>
+ <tbody *ngFor="let x of product">
+    <td>{{x.productId}}</td>
+ <td>{{x.productName}}</td>
+ <td>{{x.cost}}</td>
+ <td><mat-icon style="color: yellow;" (click)="delete(x.productId)">delete_outline</mat-icon></td>
+ <td><mat-icon style="color: yellow;" (click)="update(x)">crop_free</mat-icon></td>
+ </tbody>
+     
+    
+     
+</table>
+
+
+

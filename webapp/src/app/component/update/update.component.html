@@ -1,0 +1,10 @@
+
+<form [formGroup]="updateForm"> 
+    <input type="text" placeholder="productName" formControlName="productName">
+    <br>
+    <br>
+    <input type="text" placeholder="Cost" formControlName="cost">
+    <br>
+    <br>
+    <input type="submit" value="Update" (click)="update()">
+</form>
